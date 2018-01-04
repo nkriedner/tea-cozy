@@ -1,0 +1,41 @@
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+
+ /*STEP 1: Styling the header*/
+
+ header {
+   height: 69px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid seashell;
+   /*position: fixed;
+   z-index: 5;*/
+ }
+
+.logo-img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+a {
+  color: seashell;
+  padding: 0.8em;
+}
+
+
+/*STEP 2: Styling the Main part*/
+
+.our-mission {
+  background: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
