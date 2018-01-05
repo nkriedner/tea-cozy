@@ -1,3 +1,7 @@
+/*******************/
+/* GENERAL STYLING */
+/*******************/
+
 * {
   box-sizing: border-box;
 }
@@ -8,10 +12,14 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  text-align: center;
 }
 
 
- /*STEP 1: Styling the header*/
+
+/**********************/
+/* STYLING THE HEADER */
+/**********************/
 
  header {
    height: 69px;
@@ -34,7 +42,9 @@ a {
 }
 
 
-/*STEP 2: Styling the Main part*/
+/*************************/
+/* STYLING THE MAIN PART */
+/*************************/
 
 .our-mission {
   background: url("../images/img-mission-background.jpg");
@@ -50,13 +60,11 @@ a {
 
 .our-mission-header {
   width: 100%;
-  text-align: center;
   background-color: black;
 }
 
 .tea-of-the-month {
   width: 1000px;
-  text-align: center;
   margin: 0 auto;
 }
 
@@ -102,10 +110,6 @@ div.tea-div h4 {
   opacity: 1;
 }
 
-.locations, footer {
-  text-align: center;
-}
-
 .locations h3, .locations p {
   padding: 10px;
 }
@@ -114,6 +118,11 @@ div.tea-div h4 {
   margin-top: 55px;
   margin-bottom: 15px;
 }
+
+
+/**********************/
+/* STYLING THE FOOTER */
+/**********************/
 
 .contact-info {
   height: 200px;
